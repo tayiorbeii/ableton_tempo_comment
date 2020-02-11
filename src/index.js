@@ -12,8 +12,6 @@ async function setComment (fileName, tempo) {
       if (err) {
         console.error(err)
       }
-
-      console.log(result, raw)
     })
   } catch (err) {
     console.error(err)
