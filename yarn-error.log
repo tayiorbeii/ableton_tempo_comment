@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/taylor/.nvm/versions/node/v11.13.0/bin/node /Users/taylor/.yarn/bin/yarn.js add get-stdin lodash-get applescript ableton
+
+PATH: 
+  /Users/taylor/google-cloud-sdk/bin:/Users/taylor/.nvm/versions/node/v11.13.0/bin:/Users/taylor/.npm-packages/bin:/Users/taylor/.yarn/bin:/Users/taylor/.rbenv/shims:/Users/taylor/.rbenv/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/lodash-get: Not found
+      at Request.params.callback [as _callback] (/Users/taylor/.yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/Users/taylor/.yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/Users/taylor/.yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/Users/taylor/.yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1142:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "ableton_bpm",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

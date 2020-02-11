@@ -1,0 +1,15 @@
+{
+  "name": "ableton_bpm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ableton": "^0.0.8",
+    "ableton-parser": "^1.1.0",
+    "applescript": "^1.0.0",
+    "execa": "^4.0.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "node-osascript": "^2.1.0"
+  }
+}
